@@ -70,7 +70,7 @@ select * from articulos where precio > 100;
 
 ___
 
-> " < " : traera todo los articulos cuyo precio sea ** menor** que...
+> " < " : traera todo los articulos cuyo precio sea **menor** que...
 ```sql
 select * from articulos where precio < 100;
 ```
