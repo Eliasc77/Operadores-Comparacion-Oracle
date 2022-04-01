@@ -26,6 +26,8 @@ select * from articulos;
  | 6            | mouse           |  Genius   |   20   |
  | 7            | mouse           |  teclado blanco   |   30   |
  | 8            | Computadora           |  Dell   |   2000   |
+ 
+ ___
 
 #### Ejemplos :
 
@@ -37,6 +39,7 @@ select * from articulos where nombre = 'monitor';
 | ------------------|:----------------:|---------------:|-----------:|
 | 3            | monitor           |  Samsung 14   |   800   |
 
+___
 
 > " != " : nos traera los datos que su nombre sea diferente de monitor.
 ```sql
@@ -52,6 +55,7 @@ select * from articulos where nombre != 'monitor';
  | 7            | mouse           |  teclado blanco   |   30   |
  | 8            | Computadora           |  Dell   |   2000   |
 
+___
 
 > " > " : traera todo los articulos cuyo precio sea **mayor** que .
 ```sql
@@ -64,6 +68,8 @@ select * from articulos where precio > 100;
  | 3            | monitor           |  Samsung 14   |   800   |
  | 8            | Computadora           |  Dell   |   2000   |
 
+___
+
 > " < " : traera todo los articulos cuyo precio sea ** menor** que...
 ```sql
 select * from articulos where precio < 100;
@@ -74,6 +80,7 @@ select * from articulos where precio < 100;
  | 6            | mouse           |  Genius   |   20   |
  | 7            | mouse           |  teclado blanco   |   30   |
 
+___
 
 > " >= " : traera todo los articulos cuyo precio sea **mayor o igual ** que...
 ```sql
@@ -86,6 +93,8 @@ select * from articulos where precio >= 100;
  | 3            | monitor           |  Samsung 14   |   800   |
  | 4            | teclado           |  ingles Biswal   |   100   |
  | 8            | Computadora           |  Dell   |   2000   |
+ 
+ ___
  
  > " <= " : traera todo los articulos cuyo precio sea **menor o igual ** que...
 ```sql
